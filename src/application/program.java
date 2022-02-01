@@ -18,6 +18,8 @@ public class program {
 		//Seller seller = new Seller(21, "bob", "bob@gmail", new Date(), 3000.0, obj);
 
 		SellerDao sellerDao = DaoFactory.createSellerDao();
+		
+		System.out.println("=== Test 1: seller findById === ");
 
 		Seller seller = sellerDao.findById(3);
 
